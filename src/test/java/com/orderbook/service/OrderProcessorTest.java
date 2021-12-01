@@ -1,4 +1,4 @@
-package com.orderbook.control;
+package com.orderbook.service;
 
 import com.orderbook.exception.OrderException;
 import org.junit.jupiter.api.AfterAll;
