@@ -36,7 +36,7 @@ A sample file is packed with the project and it is available in the '**src/main/
 Final result should be like this.
   <img width="243" alt="Screenshot 2021-12-01 at 8 00 44 PM" src="https://user-images.githubusercontent.com/6348101/144231066-d1b254f3-7bed-464e-bfa4-73008c48cd0c.png">
   
-#### Using and IDE
+#### Using an IDE
 1. Download project 'zip' file.
 2. Extract the zip file in your downloaded directory. Now you will see a folder with 'orderbook-develop' name.
 3. Now from IDE select open/import existing project.
