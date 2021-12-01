@@ -14,7 +14,11 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("---- Order Book Management ----");
 
-        String dataFilePath = "src/main/resources/data/MarketDataFile-XYZ.csv";
+        if(args.length != 1) {
+            System.out.println("Please provide the file path!");
+            System.exit(-1);
+        }
+        String dataFilePath = args[0];
         // assumption : file name contains the symbol
         // file name pattern : MarketDataFile-<SYMBOL>.csv
         if(!dataFilePath.matches(".*-.*\\.csv")) {
